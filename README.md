@@ -18,7 +18,7 @@ Voici la liste complète des données de divers open data utilisée sur le proje
 - les bus de la Métropole Bordelaise (source : https://opendata.bordeaux-metropole.fr/api/datasets/1.0/offres-de-services-bus-tramway-gtfs/attachments/keolis_bus_zip/)
 - les TERs de nouvelle aquitaine (source : https://eu.ftp.opendatasoft.com/sncf/gtfs/export-ter-gtfs-last.zip)
 - les autocars de nouvelle aquitaine (source : https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/gironde-aggregated-gtfs.zip)
-Le script d'import supprime la liane 9 dans le GTFS des bus de TBM. Il devra à terme supprimer le BHNS de St Aubin (remplacée par la version de l'association) ainsi que la liane 3.
+Le script d'import supprime la liane 9 dans le GTFS des bus de TBM. Il devra à terme supprimer le BHNS de St Aubin (remplacé par la version de l'association) ainsi que la liane 3.
 
 ### Les données crées par Métro de Bordeaux
 L'association a généré les différents TCHNS. En voici la liste :
