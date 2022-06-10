@@ -1,1 +1,28 @@
 # Tester-metro-bordeaux
+
+## Présentation du projet
+
+Dans le cadre de la présentation de son projet de mobilité et pour faire face au mur des mobilités pronostiqué par l'A'Urba pour 2030, l'association Métro de Bordeaux a souhaité mettre en place un calculateur afin de permettre de tester ses propositions.
+
+Le calculateur est basé sur la solution [Open Trip Planner (version 2)](https://github.com/opentripplanner/OpenTripPlanner)
+
+Pour le front, le calculateur utilise le projet [Open Trip Planner React Redux](https://github.com/opentripplanner/otp-react-redux)
+
+## Source de données 
+
+L'association a utilisé des données provenant de divers open data et a généré ses propres données lorsque cela été necessaire.
+
+### Open data
+Voici la liste complète des données de divers open data utilisée sur le projet
+- les trams de la Métropole Bordelaise (source : https://opendata.bordeaux-metropole.fr/api/datasets/1.0/offres-de-services-bus-tramway-gtfs/attachments/keolis_tram_zip/)
+- les bus de la Métropole Bordelaise (source : https://opendata.bordeaux-metropole.fr/api/datasets/1.0/offres-de-services-bus-tramway-gtfs/attachments/keolis_bus_zip/)
+- les TERs de nouvelle aquitaine (source : https://eu.ftp.opendatasoft.com/sncf/gtfs/export-ter-gtfs-last.zip)
+- les autocars de nouvelle aquitaine (source : https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/gironde-aggregated-gtfs.zip)
+Le script d'import supprime la liane 9 dans le GTFS des bus de TBM. Il devra à terme supprimer le BHNS de St Aubin (remplacée par la version de l'association) ainsi que la liane 3.
+
+### Les données crées par Métro de Bordeaux
+L'association a généré les différents TCHNS. En voici la liste :
+- la ligne de métro de l'association (source à venir)
+- un BHNS (bus express) sur les Boulevards (source : https://github.com/Metro-Bordeaux/BHNS-Boulevard)
+- un ensemble de BHNS à gradignan (source : https://github.com/Metro-Bordeaux/BHNS-Gradignan)
+- un BHNS Saint Aubin de Médoc - Bordeaux Gambetta (source : https://github.com/Metro-Bordeaux/BHNS-Saint-Aubin-Gambetta)
