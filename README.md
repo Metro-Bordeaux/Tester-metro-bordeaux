@@ -14,7 +14,7 @@ Le site est disponible à l'adresse suivante : https://www.metrobordeaux.fr/itin
 
 ## Source de données 
 
-L'association a utilisé des données provenant de divers open data et a généré ses propres données lorsque cela été necessaire.
+L'association a utilisé des données provenant de divers open data et a généré ses propres données lorsque cela était necessaire.
 
 ### Open data
 Voici la liste complète des données de divers open data utilisée sur le projet
