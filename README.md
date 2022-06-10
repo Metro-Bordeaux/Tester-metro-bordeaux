@@ -24,7 +24,7 @@ Voici la liste complète des données de divers open data utilisée sur le proje
 - les autocars de nouvelle aquitaine (source : https://www.pigma.org/public/opendata/nouvelle_aquitaine_mobilites/publication/gironde-aggregated-gtfs.zip)
 Le script d'import supprime la liane 9 dans le GTFS des bus de TBM. Il devra à terme supprimer le BHNS de St Aubin (remplacé par la version de l'association) ainsi que la liane 3.
 
-### Les données crées par Métro de Bordeaux
+### Les données créées par Métro de Bordeaux
 L'association a généré les TCHNS suivants :
 - la ligne de métro de l'association (source à venir)
 - un BHNS (bus express) sur les Boulevards (source : https://github.com/Metro-Bordeaux/BHNS-Boulevard)
