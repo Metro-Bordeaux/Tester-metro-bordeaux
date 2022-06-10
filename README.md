@@ -4,9 +4,13 @@
 
 Dans le cadre de la présentation de son projet de mobilité et pour faire face au mur des mobilités pronostiqué par l'A'Urba pour 2030, l'association Métro de Bordeaux a souhaité mettre en place un calculateur afin de permettre de tester ses propositions.
 
+Pour plus d'informations sur le projet, merci de vous référer à la page suivante : https://www.metrobordeaux.fr/projet
+
 Le calculateur est basé sur la solution [Open Trip Planner (version 2)](https://github.com/opentripplanner/OpenTripPlanner)
 
 Pour le front, le calculateur utilise le projet [Open Trip Planner React Redux](https://github.com/opentripplanner/otp-react-redux)
+
+Le site est disponible à l'adresse suivante : https://www.metrobordeaux.fr/itineraires
 
 ## Source de données 
 
@@ -21,7 +25,7 @@ Voici la liste complète des données de divers open data utilisée sur le proje
 Le script d'import supprime la liane 9 dans le GTFS des bus de TBM. Il devra à terme supprimer le BHNS de St Aubin (remplacé par la version de l'association) ainsi que la liane 3.
 
 ### Les données crées par Métro de Bordeaux
-L'association a généré les différents TCHNS. En voici la liste :
+L'association a généré les TCHNS suivants :
 - la ligne de métro de l'association (source à venir)
 - un BHNS (bus express) sur les Boulevards (source : https://github.com/Metro-Bordeaux/BHNS-Boulevard)
 - un ensemble de BHNS à gradignan (source : https://github.com/Metro-Bordeaux/BHNS-Gradignan)
