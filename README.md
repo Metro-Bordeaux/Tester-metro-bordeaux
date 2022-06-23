@@ -2,7 +2,7 @@
 
 ## Présentation du projet
 
-Dans le cadre de la présentation de son projet de mobilité et pour faire face au mur des mobilités pronostiqué par l'A'Urba pour 2030, l'association Métro de Bordeaux a souhaité mettre en place un calculateur afin de permettre de tester ses propositions.
+Dans le cadre de son projet de mobilité devant répondre à la forte augmentation du nombre d'usagers des transports en commun d'ici 2030-2035, l'association Métro de Bordeaux a mis en place un calculateur d'itinéraires afin de permettre de tester ses propositions.
 
 Pour plus d'informations sur le projet, merci de vous référer à la page suivante : https://www.metrobordeaux.fr/projet
 
