@@ -26,7 +26,7 @@ Le script d'import supprime la liane 9 dans le GTFS des bus de TBM. Il devra à 
 
 ### Les données créées par Métro de Bordeaux
 L'association a généré les TCHNS suivants :
-- la ligne de métro de l'association (source à venir)
+- la ligne de métro de l'association (source : https://github.com/Metro-Bordeaux/Metro-ligne-de-l-association)
 - un BHNS (bus express) sur les Boulevards (source : https://github.com/Metro-Bordeaux/BHNS-Boulevard)
 - un ensemble de BHNS à gradignan (source : https://github.com/Metro-Bordeaux/BHNS-Gradignan)
 - un BHNS Saint Aubin de Médoc - Bordeaux Gambetta (source : https://github.com/Metro-Bordeaux/BHNS-Saint-Aubin-Gambetta)
